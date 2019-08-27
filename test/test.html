@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+
+
+  <div id="test">
+    <div>
+      <select id = "unit_name" onchange='recalculate_growthrate()'>
+        <!-- <option selected="selected" disabled>choose unit</option> -->
+        <!-- <optgroup id = "house_bl" label = 'Blue Lions'>
+        </optgroup> -->
+
+      </select>
+      <select id = 'class' onchange='recalculate_growthrate();'>
+        <!-- <option selected="selected" disabled>choose class</option> -->
+
+      </select>
+    </div>
+
+    <div id="growth_rate">
+      <table>
+        <tr>
+          <td>HP</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>STR</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>MAG</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>DEX</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>SPD</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>LCK</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>DEF</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>RES</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+        <tr>
+          <td>CHA</td>
+          <td name='breakdown'>0</td>
+          <td name='stat'>0</td>
+        </tr>
+      </table>
+
+      <div>
+        <table id = "character_items">
+
+        </table>
+      </div>
+
+    </div>
+    <br>
+
+
+    <div id="class_specific">
+      <ul id="class_requirements">
+
+      </ul>
+      <table id="class_masteries">
+        <!-- <th>Mastery</th><th>Description</th> -->
+      </table>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="growth_rates.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+</body>
